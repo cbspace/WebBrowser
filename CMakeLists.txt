@@ -11,6 +11,8 @@ include_directories(browser)
 file(GLOB SOURCES
     src/*.h
     src/*.cpp
+    src/lib/*.h,
+    src/lib/*.cpp
 )
 
 qt_add_executable(browser ${SOURCES}

@@ -15,6 +15,8 @@ class BrowserView : public QAbstractScrollArea {
         virtual void resizeEvent(QResizeEvent* event) override;
     
     private:
+        QImage render_browser_image();
+
         int p_width;
         int p_height;
 };
