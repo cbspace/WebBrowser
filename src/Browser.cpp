@@ -4,8 +4,8 @@
 #include <QWidget>
 #include <iostream>
 #include <string>
-#include "lib/Tree.h"
-#include "lib/WebElement.h"
+#include "LibCB/Tree.h"
+#include "LibCB/web/WebElement.h"
 
 using WebBrowser::BrowserWindow;
 using std::cout;
